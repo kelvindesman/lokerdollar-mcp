@@ -2,7 +2,7 @@
 
 A free, anonymous, read-only [Model Context Protocol](https://modelcontextprotocol.io) server for searching remote jobs that pay in foreign currency, with an Indonesia and Southeast Asia focus.
 
-- **Endpoint:** `https://lokerdollar-mcp.kelvin-6d2.workers.dev/mcp`
+- **Endpoint:** `https://mcp.lokerdollar.com/mcp`
 - **Transport:** HTTP JSON-RPC 2.0 — `GET /mcp` returns a discovery manifest, no handshake required
 - **Auth:** none. Fully anonymous, rate-limited per IP.
 - **Tools:**
@@ -18,7 +18,7 @@ Point any MCP-compatible client at the endpoint above. No API key, no signup.
 {
   "mcpServers": {
     "lokerdollar-jobs": {
-      "url": "https://lokerdollar-mcp.kelvin-6d2.workers.dev/mcp"
+      "url": "https://mcp.lokerdollar.com/mcp"
     }
   }
 }
